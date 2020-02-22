@@ -7,6 +7,24 @@ This project was design to give our holbi peers a different experience with the 
 ___________________________
 Will work by downloading the js and the html files from our repository and launching them in your browser with your credentials, project id and task id to be checked.
 
+to see how it works you can see this youtube video:
+https://www.youtube.com/watch?v=ZO5JqpzfCXg&feature=youtu.be
+
+Steps:
+
+-Download project:
+git clone https://github.com/LauraPeraltaV85/noisy_checkers.git
+
+-open index.html in gloogle chrome
+
+If you don't have cors extension, please you should install it.
+
+- Fill the form with your credentials
+
+- Click on submit and say Check twice, if you want to see more information about this process you can open your inspector (with f12 or ctrl + i)
+
+Thanks and enjoy it.
+
 The API
 
     Authentication
