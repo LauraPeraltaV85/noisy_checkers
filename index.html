@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="./assets/css/styles.css" />
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
     <script src="https://cdn.jsdelivr.net/npm/promise-polyfill"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 
-    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <div class="container">
@@ -22,6 +22,7 @@
               <h5 class="card-header text-center title-login">Noisy Checker</h5>
             <div class="card-body">
               <form>
+
                 <div class="form-group">
                   <label for="exampleInputEmail1">Holberton Email</label>
                   <input
@@ -29,6 +30,7 @@
                     id="exampleInputEmail1"
                     class="form-control"
                     aria-describedby="emailHelp"
+                    value=""
                   />
                 </div>
                 <div class="form-group">
@@ -37,40 +39,56 @@
                     type="password"
                     class="form-control"
                     id="exampleInputPassword1"
+                    value=""
                   />
                 </div>
                 <div class="form-group">
-                  <label for="exampleInputEmail1">Api Key</label>
+                  <label for="apiKey">Api Key</label>
                   <input
                     type="text"
                     class="form-control"
-                    id="exampleInputEmail1"
+                    id="apiKey"
                     aria-describedby="emailHelp"
+                    value=""
                   />
                 </div>
                 <div class="form-group">
-                  <label for="exampleInputEmail1">Project Number</label>
+                  <label for="projectNumber">Project Number</label>
                   <input
                     type="text"
                     class="form-control"
-                    id="exampleInputEmail1"
+                    id="projectNumber"
                     aria-describedby="emailHelp"
+                    value=""
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="taskNumber">Task Number</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="taskNumber"
+                    aria-describedby="emailHelp"
+                    value=""
                   />
                 </div>
                 <div class="row d-flex justify-content-center">
-                    <div class="col-6">
-                        <button type="submit" class="btn btn-danger btn-block">Check</button>
-                        <button id="test" class="btn btn-info btn-block">Test</button>
-
+                    <div id="check" class="col-6">
+                        <button type="button" onClick="" class="btn btn-danger btn-block">Check</button>
                     </div>
                 </div>
-                
-
-              </form>
+             </form>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <audio id="myAudio">
+      <source src="applause2.mp3" type="audio/mp3">
+    </audio>
+    <audio id="myAudio2">
+      <source src="boo.mp3" type="audio/mp3">
+    </audio>
+    <script type="text/javascript" src="request.js"></script>
   </body>
 </html>

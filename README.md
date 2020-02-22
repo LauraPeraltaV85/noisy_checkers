@@ -1,12 +1,10 @@
 # THE NOISY CHECKER
-===================
 
 This project was design to give our holbi peers a different experience with the checkers since the checker will be activated by voice(when the user says the word "check"), and by adding audio to the response, if all checkers are green an applause will be given, if all checkers are red the checker will scream.
 
 ## Installation and usage
-___________________________
-Will work by downloading the js and the html files from our repository and launching them in your browser with your credentials, project id and task id to be checked.
 
+<<<<<<< HEAD
 to see how it works you can see this youtube video:
 https://www.youtube.com/watch?v=ZO5JqpzfCXg&feature=youtu.be
 
@@ -26,6 +24,11 @@ If you don't have cors extension, please you should install it.
 Thanks and enjoy it.
 
 The API
+=======
+It will work by downloading or cloning our repository into your machine and launching the html in your browser, then submit your credentials, project number and task number to be checked, after submitting your info say "check" twice to initialize the checker.
+
+## The API
+>>>>>>> e9e3117397618f131fb7abca0ec18e38e8d71ec8
 
     Authentication
     All endpoints below are accessible only with authentication. The authentication on our API is done by requesting an auth_token and use it in every request.
@@ -277,6 +280,6 @@ The API
 
 ## Authors
 _________________
-[Paulo Morillo](https://github.com/PauloMorillo)
-[Doniben Jimenez](https://github.com/Doniben)
+[Paulo Morillo](https://github.com/PauloMorillo)  
+[Doniben Jimenez](https://github.com/Doniben)  
 [Laura Perlalta V](https://github.com/LauraPeraltaV85)
